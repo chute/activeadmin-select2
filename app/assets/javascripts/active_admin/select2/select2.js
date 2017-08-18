@@ -69,7 +69,7 @@ $(function() {
     initSelect2(fieldset.find('.select2-input'));
   });
 
-  $(document).on('ready page:load turbolinks:load', function() {
+  $(document).ready(function() {
     initSelect2($('.select2-input'), {placeholder: ''});
   });
 
